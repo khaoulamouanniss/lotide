@@ -11,17 +11,4 @@ const letterPositions = require('./letterPositions');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
 
-module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  flattern: flattern,
-  map: map,
-  letterPositions: letterPositions,
-  takeUntil: takeUntil,
-  without: without
-};
+module.exports = {head, tail, middle, countLetters, countOnly, findKey, findKeyByValue, flattern, map, letterPositions, takeUntil, without};

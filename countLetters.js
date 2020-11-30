@@ -21,3 +21,4 @@ let res = countLetters("alolla");
 assertEqual(res["l"], 3);
 assertEqual(res["o"], 1);
 assertEqual(res["a"], 2);
+module.exports = countLetters;

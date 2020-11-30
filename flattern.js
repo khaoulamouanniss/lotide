@@ -33,3 +33,4 @@ console.log(flattern([1, 2, 3], [1, 2, 3])); // => true
 console.log(flattern([1, 2, [3, 4], 5, [6]]));
 console.log(flattern([1, [1, 2], 3, [1, 3], [1, 2], 3]));
 console.log(flattern([1, [5, 6, 8], [3, 2]]));
+module.exports = flattern;
